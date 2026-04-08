@@ -7,6 +7,7 @@ def my_capitalize(text):
     first_char = text[0]
     rest = text[1:]
 
+    # Convert first character to uppercase if it is a letter
     if 'a' <= first_char <= 'z':
         first_char = chr(ord(first_char) - 32)
     elif 'A' <= first_char <= 'Z':
